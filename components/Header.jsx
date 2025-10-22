@@ -1,5 +1,7 @@
 import './Header.css';
-import Ballpit from './Ballpit';
+import Ballpit from './assets/Ballpit';
+import Link from 'next/link';
+
 
 function Header() {
   return (
@@ -21,7 +23,7 @@ function Header() {
 
       {/* Crystal Nav Bar */}
       <div className="header-nav">
-        <a href="#about" className="header-link">About</a>
+        <Link href="/projectpage" className="header-link">About</Link>
         <a href="#resume" className="header-link">Resume</a>
         <a
           href="https://linkedin.com/in/YOURPROFILE"

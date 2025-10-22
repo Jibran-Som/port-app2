@@ -1,7 +1,7 @@
 import './MainSection.css';
 import GradientText from './assets/GradientText';
 
-function MainSection() {
+function ProjectSection() {
   return (
     <div className="mainsection-container">
         <GradientText
@@ -10,7 +10,7 @@ function MainSection() {
           showBorder={false}
           className="header1-class"
         >
-          Who am I?
+          Test am I?
         </GradientText>
         <p>I'm a Software Engineering Student</p>
         <a>TAs</a>
@@ -19,4 +19,4 @@ function MainSection() {
   );
 }
 
-export default MainSection;
+export default ProjectSection;

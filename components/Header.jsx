@@ -23,8 +23,8 @@ function Header() {
 
       {/* Crystal Nav Bar */}
       <div className="header-nav">
-        <Link href="/projectpage" className="header-link">About</Link>
-        <a href="#resume" className="header-link">Resume</a>
+        <Link href="/" className="header-link">Home</Link>
+        <a href="/projectpage" className="header-link">Projects</a>
         <a
           href="https://linkedin.com/in/YOURPROFILE"
           target="_blank"

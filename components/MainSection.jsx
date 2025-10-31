@@ -12,9 +12,9 @@ function MainSection() {
         >
           Who am I?
         </GradientText>
-        <p>I'm a Software Engineering Student</p>
-        <a>TAs</a>
-        <p>ASd</p>
+        <p>Test </p>
+        <a>Test2</a>
+        <p>Test3</p>
     </div>
   );
 }

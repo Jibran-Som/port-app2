@@ -8,7 +8,7 @@ function MainSection() {
           colors={['#FFFFFF', '#BEC0CC', '#8000FF', '#5D3FD3']}
           animationSpeed={5}
           showBorder={false}
-          className="header1-class"
+          className="header2-class"
         >
           Who am I?
         </GradientText>

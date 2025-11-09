@@ -108,7 +108,7 @@
   color: #E0E0E0;
   opacity: 0.9;
   max-width: 450px;
-  text-align: left;
+  text-align: justify;
   justify-self: center;
   z-index: 2;
 }
@@ -152,6 +152,7 @@
   }
 
   .project-link img {
+    justify-self: center;
     max-width: 80%;
   }
 }

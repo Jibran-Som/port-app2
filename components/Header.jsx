@@ -21,7 +21,6 @@ function Header() {
         colors={['#8000FF', '#5D3FD3', '#FFFFFF', '#BEC0CC']}
       />
 
-      {/* Crystal Nav Bar */}
       <div className="header-nav">
         <Link href="/" className="header-link">Home</Link>
         <a href="/projectpage" className="header-link">Projects</a>
@@ -41,7 +40,6 @@ function Header() {
         >
           GitHub
         </a>
-        {/* <img src={GitHubIcon} alt="GitHub" className="icon" /> */}
       </div>
 
       {/* Header Text */}

@@ -10,7 +10,7 @@
 }
 
 .header-nav {
-  position: absolute;
+  position: absolute; /*Fixed or Absolute >> Decide later*/
   top: 20px;
   right: 50%;
   transform: translateX(50%);

@@ -14,6 +14,8 @@ function CarAPI() {
           Car API Project
         </GradientText>
         <p></p>
+
+        
         <img src="/CarAPI1.png" alt="Car API Project" className="project-image"/>
         <div className='div-class'>
             The initial goal was to design a marketable product that could be developed 
@@ -59,7 +61,7 @@ function CarAPI() {
           
         </div>
 
-        <div className='div-class' style={{justifySelf:'center'}}>
+        <div className='div-class' style={{justifySelf:'center', maxWidth:'700px'}}>
           The final design chosen was a design featuring a car and a billboard that displays 
           driving conditions based on real-time weather data. The code enables the PicoBoard 
           to pull region-specific data from the Open Meteo API for Calgary. The LCD display 

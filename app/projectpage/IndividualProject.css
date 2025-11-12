@@ -10,6 +10,7 @@ img {
 .div-class {
   padding-left: 1rem;
   font-size: 1rem;
+  align-self: center;
   color: #E0E0E0;
   opacity: 0.9;
   text-align: justify;
@@ -24,4 +25,18 @@ img {
   padding-left: 2rem;
   margin: 0.5rem 0;
   color: #E0E0E0;
+}
+
+.p-class {
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: #E0E0E0;
+  opacity: 0.9;
+}
+
+
+.p-class a:hover {
+  text-decoration: underline;
+  color: #c4b5fd;
 }

@@ -1,11 +1,11 @@
 import Header from '../../../components/Header';
-import StairBuddy from './StairBuddy';
+import Pokedex from './pokedex';
 
-export default function StairBuddyPage() {
+export default function PokedexPage() {
   return (
     <div className="page-container">
       <Header />
-      <StairBuddy />
+      <Pokedex />
     </div>
   );
 }

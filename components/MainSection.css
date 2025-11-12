@@ -36,7 +36,7 @@
   filter: blur(0.5px);
 }
 
-/* ✨ Glow animation */
+/* Glow animation */
 @keyframes glowPulse {
   0% {
     opacity: 0.4;
@@ -62,19 +62,36 @@
   z-index: 2;
 }
 
+.header3-class {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: right;
+  white-space: nowrap;
+  justify-self: end;
+  z-index: 2;
+}
+
 /* Right column (Paragraph) */
 .mainsection-container p {
   font-size: 1.25rem;
   line-height: 1.6;
   color: #E0E0E0;
   opacity: 0.9;
-  max-width: 450px;
+  max-width: 700px;
   text-align: center;
   justify-self: center;
+  text-align: justify;
   z-index: 2;
 }
 
-/* 📱 Responsive (mobile/tablet) */
+  .image-class {
+    justify-self: center;
+    background-color: #E0E0E0;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+
 @media (max-width: 900px) {
   .mainsection-container {
     grid-template-columns: 1fr; /* stack vertically */
@@ -98,4 +115,7 @@
     text-align: center;
     max-width: 90%;
   }
+
+
+
 }

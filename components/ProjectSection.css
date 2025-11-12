@@ -107,9 +107,10 @@
   line-height: 1.6;
   color: #E0E0E0;
   opacity: 0.9;
-  max-width: 450px;
-  text-align: justify;
+  max-width: 500px;
+  text-align: start;
   justify-self: center;
+  align-self: center;
   z-index: 2;
 }
 

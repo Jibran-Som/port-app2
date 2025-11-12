@@ -17,6 +17,27 @@ function ProjectSection() {
 
       <hr className='section-divider' />
       <div className="project-item">
+        <Link href="/projectpage/pokedex-project" className="project-link">
+          <div>
+            <h2 style={{justifySelf:"center"}} className="project-header">Pokedex App</h2>
+            <img src="/Pokedex1.png" alt="Pokedex Project" />
+          </div>
+        </Link>
+      </div>
+      <p className = "p-class">
+        This is a full-stack Pokémon database application built using Flask, 
+        BeautifulSoup, and MongoDB. The app scrapes comprehensive Pokémon data 
+        from the Pokémon Database website, including stats, types, abilities, 
+        moves, and more, and stores it in a local MongoDB database. The 
+        back-end provides a RESTful API that allows users to retrieve detailed 
+        Pokémon information, enabling the front-end to display data in an organized 
+        and interactive way.
+      </p>
+
+
+
+      <hr className='section-divider' />
+      <div className="project-item">
         <Link href="/projectpage/stair-buddy" className="project-link">
           <div>
             <h2 style={{justifySelf:"center"}} className="project-header">Stair Buddy</h2>

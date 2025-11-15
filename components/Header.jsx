@@ -76,7 +76,7 @@ function Header() {
         <Link href="/" className="header-link">Home</Link>
         <a href="/projectpage" className="header-link">Projects</a>
         <a
-          href="https://www.linkedin.com/in/xx/"
+          href="https://www.linkedin.com/in/jibran-somroo-910l"
           target="_blank"
           rel="noopener noreferrer"
           className="header-link"
@@ -84,7 +84,7 @@ function Header() {
           LinkedIn
         </a>
         <a
-          href="https://github.com/xx"
+          href="https://github.com/Jibran-Som"
           target="_blank"
           rel="noopener noreferrer"
           className="header-link"

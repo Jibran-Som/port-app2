@@ -35,6 +35,8 @@ If you'd like to reach out, feel free to contact me:
 
 * Inspired by modern developer portfolios.
 * Built with passion and attention to detail.
-* Used React bits
+* This project includes the `Ballpit.jsx` and `GradientText` components from the ReactBits library (licensed under MIT + Commons Clause). Proper credit to the original creators.
 
 ---
+
+

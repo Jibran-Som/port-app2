@@ -14,7 +14,7 @@ function MainSection() {
       </GradientText>
 
 
-      <div>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
         <p>
           I’m <strong>Jibran Somroo</strong>, a Software Engineering student at the University of Calgary with a Minor in Aerospace Engineering. 
           I’m passionate about developing efficient and scalable software solutions that bridge hardware and software systems.

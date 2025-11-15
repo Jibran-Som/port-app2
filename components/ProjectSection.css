@@ -148,12 +148,13 @@
   }
 
   .p-class {
-    text-align: center;
+    text-align: justify-center;
     max-width: 90%;
   }
 
   .project-link img {
-    justify-self: center;
+    align-self: center;
     max-width: 80%;
+    margin: 0 auto;
   }
 }

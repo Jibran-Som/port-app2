@@ -14,7 +14,6 @@
   box-sizing: border-box;
 }
 
-/* 🌟 Animated divider line */
 .mainsection-container::before {
   content: '';
   position: absolute;

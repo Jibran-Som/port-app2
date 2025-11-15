@@ -4,22 +4,13 @@ import Link from 'next/link';
 
 
 function Header() {
+
+
+
   return (
     <div className="header-container">
       {/* Ballpit Background */}
-      <Ballpit
-        count={30}
-        gravity={0.1}
-        friction={0.9975}
-        wallBounce={0.95}
-        followCursor={false}
-        ambientColor={16777215}
-        lightIntensity={1}
-        minSize={0.5}
-        maxSize={1}
-        maxVelocity={0.15}
-        colors={['#8000FF', '#5D3FD3', '#FFFFFF', '#BEC0CC']}
-      />
+
 
       <div className="header-nav">
         <Link href="/" className="header-link">Home</Link>

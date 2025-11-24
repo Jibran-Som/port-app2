@@ -10,13 +10,13 @@ function MainSection() {
         showBorder={false}
         className="header2-class"
       >
-        Who am I?
+        About Me
       </GradientText>
 
 
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', paddingLeft:'0.1rem' }}>
         <p>
-          I’m <strong>Jibran Somroo</strong>, a Software Engineering student at the University of Calgary with a Minor in Aerospace Engineering. 
+          I’m a Software Engineering student at the University of Calgary with a Minor in Aerospace Engineering. 
           I’m passionate about developing efficient and scalable software solutions that bridge hardware and software systems.
         </p>
         <img src="/SchulichLogo.png" alt="Car API Project" className="image-class"/>

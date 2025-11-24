@@ -4,7 +4,7 @@ import './Header.css';
 import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 
-function Header() {
+function Header({ headerText = "Welcome to My Portfolio" }) {
   const [isLightBackground, setIsLightBackground] = useState(false);
   const navRef = useRef(null);
 
@@ -21,7 +21,6 @@ function Header() {
       }
     }
     
-    // If no background, check if it's an image (simplified)
     if (element.tagName.toLowerCase() === 'img') {
       return 255; // Assume images are light for safety
     }
@@ -94,7 +93,7 @@ function Header() {
       </div>
 
       <div className="header-text">
-        Welcome to My Portfolio
+        {headerText}
       </div>
     </div>
   );
